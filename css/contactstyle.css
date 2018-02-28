@@ -1,0 +1,87 @@
+
+/*===== Main Styles =====*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: forestgreen;
+  flex-shrink: 0;
+  border-top: solid 1px #282828;
+}
+
+/*===== Content Styles =====*/
+
+.copyright {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: forestgreen;
+  flex: 1 0 auto;
+  border-bottom: solid 1px #282828;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.main-content {
+  flex: 1 0 auto;
+}
+
+/*===== Img Styles ====*/
+
+.icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 15px;
+}
+
+/*==== Form Styles ====*/
+
+form {
+  /* Just to center the form on the page */
+  margin: 15px auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: white;
+  font-weight: bold;
+}
+
+.form_button {
+  padding: 4px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+#name {
+  padding: 1em;
+  margin: 12px;
+}
+
+#mail {
+  padding: 1em;
+  margin: 12px;
+}
+
+#project {
+  margin: 10px;
+}
+
+.form_header {
+  text-align: center;
+}
