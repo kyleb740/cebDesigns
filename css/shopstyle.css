@@ -40,6 +40,21 @@ nav {
   flex: 1 0 auto;
 }
 
+.explain {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.card-columns {
+  display: inline-block;
+}
+
+.shopColumns {
+  background-color: lightgrey;
+}
+
 /*===== Img Styles ====*/
 
 .icon {
