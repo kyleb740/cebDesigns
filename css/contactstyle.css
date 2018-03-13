@@ -38,6 +38,7 @@ nav {
 
 .main-content {
   flex: 1 0 auto;
+  background-color: lightgrey;
 }
 
 /*===== Img Styles ====*/
@@ -53,20 +54,21 @@ nav {
 form {
   /* Just to center the form on the page */
   margin: 15px auto;
-  width: 400px;
+  width: 600px;
   /* To see the outline of the form */
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 2px solid #CCC;
   border-radius: 1em;
   background-color: white;
   font-weight: bold;
 }
 
 .form_button {
-  padding: 4px;
-  margin-left: 120px;
-  margin-top: 20px;
-  background-color: lightgrey;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: forestgreen;
+  color: white;
+  font-weight: bold;
 }
 
 #name {
@@ -76,7 +78,7 @@ form {
 
 #mail {
   padding: 1em;
-  margin: 12px;
+  margin: 16px;
 }
 
 #project {
@@ -84,5 +86,26 @@ form {
 }
 
 .form_header {
+  text-align: center;
+}
+
+.form-left {
+  float: left;
+}
+
+.form-right {
+  float: right;
+  margin-top: 15px;
+}
+
+.schedule {
+  margin-top: 15px;
+}
+
+.end {
+  margin-right: 8px;
+}
+
+#buttonbox {
   text-align: center;
 }

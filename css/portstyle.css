@@ -40,11 +40,7 @@ nav {
   flex: 1 0 auto;
 }
 
-@media (min-width: 500px) {
-  .card-body {
-    height: 15px;
-  }
-}
+
 
 
 
