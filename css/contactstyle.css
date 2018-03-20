@@ -41,6 +41,7 @@ nav {
   background-color: lightgrey;
 }
 
+
 /*===== Img Styles ====*/
 
 .icon {
@@ -52,50 +53,37 @@ nav {
 /*==== Form Styles ====*/
 
 form {
-  /* Just to center the form on the page */
-  margin: 15px auto;
-  width: 600px;
-  /* To see the outline of the form */
-  padding: 1em;
-  border: 2px solid #CCC;
-  border-radius: 1em;
-  background-color: white;
   font-weight: bold;
+}
+
+#buttonbox {
+  text-align: center;
 }
 
 .form_button {
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: 15px;
   background-color: forestgreen;
   color: white;
   font-weight: bold;
 }
 
+.form_header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
 #name {
   padding: 1em;
-  margin: 12px;
+  margin-bottom: 10px;
 }
 
 #mail {
   padding: 1em;
-  margin: 16px;
-}
-
-#project {
-  margin: 10px;
-}
-
-.form_header {
-  text-align: center;
-}
-
-.form-left {
-  float: left;
-}
-
-.form-right {
-  float: right;
-  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 4px;
 }
 
 .schedule {
@@ -103,9 +91,100 @@ form {
 }
 
 .end {
-  margin-right: 8px;
+  margin-right: 5px;
+  margin-bottom: 15px;
 }
 
-#buttonbox {
+#project {
+  width: 95%;
+}
+
+/*====== Form content for larger screens ====*/
+@media (min-width: 624px) {
+  form {
+    margin: 15px auto;
+    width: 600px;
+    padding: 1em;
+    border: 2px solid #CCC;
+    border-radius: 1em;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  #name {
+    padding: 1em;
+    margin: 12px;
+  }
+
+  #mail {
+    padding: 1em;
+    margin: 16px;
+  }
+
+  #project {
+    margin: 10px;
+  }
+
+  .form-left {
+    float: left;
+  }
+
+  .form-right {
+    float: right;
+    margin-top: 15px;
+  }
+
+  .schedule {
+    margin-top: 15px;
+  }
+
+  .end {
+    margin-right: 8px;
+  }
+}
+
+
+/*====== Modal Styles ====*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modalMessage {
   text-align: center;
+  color: forestgreen;
 }
