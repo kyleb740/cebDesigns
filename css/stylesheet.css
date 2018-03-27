@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  display: flex;
+  display: flex;    /*=== to make sure footer doesn't overlap ==*/
   flex-direction: column;
   min-height: 100vh;
 }
@@ -33,12 +33,11 @@ footer {
 
 nav {
   background-color: forestgreen;
-  flex: 1 0 auto;
+  flex: 1 0 auto;                   /*=== to make sure body doesn't overlap ==*/
   border-bottom: solid 1px #282828;
 }
 
 .main-content {
-
   flex: 1 0 auto;
   margin-bottom: -15px;
 }
@@ -53,6 +52,7 @@ nav {
   font-weight: bolder;
 }
 
+/* Aligning the captions on the carousel at the top of the pics */
 .cap1 {
   margin-bottom: 295px;
 }
@@ -65,6 +65,7 @@ nav {
   margin-bottom: 275px;
 }
 
+/*making it so that the colors of controls on the carousel can be seen */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   height: 50px;

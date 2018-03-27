@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  display: flex;
+  display: flex;            /*=== to make sure footer doesn't overlap ==*/
   flex-direction: column;
   min-height: 100vh;
 }
@@ -37,7 +37,7 @@ nav {
 }
 
 .main-content {
-  flex: 1 0 auto;
+  flex: 1 0 auto;         /*=== to make sure body doesn't overlap ==*/
 }
 
 .explain {
