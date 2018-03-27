@@ -1,6 +1,6 @@
 This website was designed for my Code Louisville project.  The website is for my father who is a woodworker and does residential remodeling.  
 
-To access the project download the repository files and open index.html in your chosen browser.
+To access the project download the repository files and open index.html in your chosen browser !!!(functionability of the modals in the shop.html is not currently compatible with Microsoft Edge/modal does work in Chrome and Firefox)!!!.
 
 The Custom CSS classes are:
   1. .action in my stylesheet.css (for this class I added a linear gradient background for my call to action area)
