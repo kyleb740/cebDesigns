@@ -10,5 +10,5 @@ The Custom CSS classes are:
   3. .form_button in my contactstyle.css (this class styled the submit button for my contact form.  It changed the background color, made the text bold, and added padding and margin to improve the spacing)
 
 The JavaScript functions I created are:
-  1. On my contact form in contact.html I created a function for a modal to open when the submit button is clicked.  I also created a function to remove the modal when the (x) is clicked or when the user clicks outside of the screen.
-  2. On the photos in shop.js I created a function to open a modal that shows more info for each item in the shop when the photo is clicked on. 
+  1. On my contact form in contact.html I created a function for a modal to open when the submit button is clicked.  I also created a function to remove the modal when the (x) is clicked or when the user clicks outside of the modal.
+  2. On the photos in shop.js I created a function to open a modal that shows more info for each item in the shop when the photo is clicked on.
