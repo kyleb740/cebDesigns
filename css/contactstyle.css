@@ -33,7 +33,7 @@ nav {
 }
 
 .navbar-brand {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .main-content {
@@ -45,9 +45,9 @@ nav {
 /*===== Img Styles ====*/
 
 .icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 15px;
+  width: 2.3rem;
+  height: 2.3rem;
+  margin-right: 10px;
 }
 
 /*==== Form Styles ====*/
