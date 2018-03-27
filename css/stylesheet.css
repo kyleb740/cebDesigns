@@ -53,9 +53,12 @@ nav {
   font-weight: bolder;
 }
 
-.cap1,
-.cap3 {
+.cap1 {
   margin-bottom: 295px;
+}
+
+.cap3 {
+  margin-bottom: 365px;
 }
 
 .cap2 {
